@@ -1,0 +1,11 @@
+{
+  "name": "expressts-luthfi",
+  "version": "1.0.0",
+  "bin": {
+    "expressts-luthfi": "./bin/cli.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "simple-git": "^3.18.0"
+  }
+}
