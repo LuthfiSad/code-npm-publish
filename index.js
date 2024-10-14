@@ -1,7 +1,8 @@
 #!/usr/bin/env node
 
-import { cloneRepo } from './lib/cloneRepo.js';
-import { logSuccess, logError } from './lib/logger.js';
+
+const cloneRepo = require('./lib/cloneRepo.js');
+const { logError, logSuccess } = require('./lib/logger.js');
 
 const repoUrl = "https://github.com/LuthfiSad/express-template-luthfi.git"; // URL repositori Anda
 let projectName = process.argv[2] === "." ? process.cwd() : process.argv[2] || "expressts-luthfi"; // Nama folder proyek
