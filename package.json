@@ -1,12 +1,12 @@
 {
-  "name": "tsexpress-luthfi",
-  "version": "1.0.1",
+  "name": "expressts-luthfi",
+  "version": "1.0.3",
   "bin": {
-    "tsexpress-luthfi": "./bin/cli.js"
+    "expressts-luthfi": "./index.js"
   },
   "type": "module",
   "dependencies": {
-    "simple-git": "^3.18.0",
-    "tsexpress-luthfi": "file:"
+    "expressts-luthfi": "file:",
+    "simple-git": "^3.18.0"
   }
 }
