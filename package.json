@@ -1,6 +1,6 @@
 {
   "name": "expressts-luthfi",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "bin": {
     "expressts-luthfi": "./index.js"
   },
