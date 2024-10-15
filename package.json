@@ -5,7 +5,6 @@
     "expressts-luthfi": "./index.js"
   },
   "dependencies": {
-    "expressts-luthfi": "file:",
     "simple-git": "^3.27.0"
   }
 }
